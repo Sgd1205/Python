@@ -7,7 +7,7 @@ if month in ('January, March, May, July, August, October, December'):
 elif month in ('April, June, September, November'):
     print("Number of days: 30")
 elif month in ('February'):
-    if year%2==0:
+    if year%4==0:
         print("Number of days: 29")
     else:
         print("Number of days: 28")
